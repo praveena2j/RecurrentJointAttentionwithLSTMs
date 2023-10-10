@@ -14,11 +14,21 @@ If you find this code useful for your research, please cite our paper.
 }
 ```
 
-This code uses Affwild2 dataset to validate the proposed approach for Dimensional Emotion Recognition. There are three major blocks in this repository to reproduce the results of our paper. This code uses Mixed Precision Training (torch.cuda.amp). The dependencies and packages required to reproduce the environment of this repository can be found in the `environment.yml` file. 
+This code uses the Affwild2 dataset to validate the proposed approach for Dimensional Emotion Recognition. There are three major blocks in this repository to reproduce the results of our paper. This code uses Mixed Precision Training (torch.cuda.amp). The dependencies and packages required to reproduce the environment of this repository can be found in the `environment.yml` file. 
 
+### Creating the environment
 Create an environment using the `environment.yml` file
 
 `conda env create -f environment.yml`
+
+### Trained Models
+The models trained using our approach can be found [here](https://drive.google.com/drive/folders/1W3c6V5bfGZTfwJLJq6ORSXXCLAsG7l2U?usp=share_link)
+
+```
+A-Vox2.model:  The speaker network (ECAPA-L) trained on VoxCeleb2
+V-Vox2.model:  The face network (ResNet18) trained on VoxCeleb2
+V-Glint.model: The face network (ResNet50) trained on Glint360K
+```
 
 # Table of contents <a name="Table_of_Content"></a>
 
