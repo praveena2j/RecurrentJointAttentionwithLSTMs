@@ -50,9 +50,11 @@ recursivejointattention.pt:  Fusion model trained using our approach on the Affw
 [Return to Table of Content](#Table_of_Content)
 
 Please download the following.
-+ [AffWild2 database (Valence-arousal Track)](https://ibug.doc.ic.ac.uk/resources/aff-wild2/) 
-   + The dataset can be downloaded using the link above
-   + The cropped-aligned images are necessary. They are used to form the visual input. Otherwise, you may
-    choose to use [OpenFace toolkit](https://github.com/TadasBaltrusaitis/OpenFace/releases) to extract the cropped-aligned images. However, the per-frame success rate
-    is lower compared to the database-provided version.
+  + The dataset for the valence-arousal track can be downloaded [here](https://ibug.doc.ic.ac.uk/resources/aff-wild2/)
+
+### Step Two: Preprocess the visual modality <a name="PD"></a>
+  + The cropped-aligned images are necessary. They are used to form the visual input. They are already provided by the dataset organizers. Otherwise, you may choose to use [OpenFace toolkit](https://github.com/TadasBaltrusaitis/OpenFace/releases) to extract the cropped-aligned images. However, the per-frame success rate is lower compared to the database-provided version.
+
+### Step Three: Preprocess the audio modality <a name="PD"></a>
+  + The audio files are extracted and segmented to generate the corresponding audio files in alignment with the visual files using [mkvextract](https://mkvtoolnix.download/). To generate these audio files, you can use the file Preprocessing/audio_preprocess.py. 
 
