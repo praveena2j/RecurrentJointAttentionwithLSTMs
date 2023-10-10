@@ -50,8 +50,9 @@ recursivejointattention.pt:  Fusion model trained using our approach on the Affw
 [Return to Table of Content](#Table_of_Content)
 
 Please download the following.
-+ [AffWild2 database (Valence-arousal Track)](https://ibug.doc.ic.ac.uk/resources/aff-wild2/), 
-    + The cropped-aligned images are necessary. They are used to form the visual input. Otherwise, you may
-    choose to use [OpenFace toolkit](https://github.com/TadasBaltrusaitis/OpenFace/releases) to extract the cropped-aligned images. However the per-frame success rate
++ [AffWild2 database (Valence-arousal Track)](https://ibug.doc.ic.ac.uk/resources/aff-wild2/) 
+   + The dataset can be downloaded using the link above
+   + The cropped-aligned images are necessary. They are used to form the visual input. Otherwise, you may
+    choose to use [OpenFace toolkit](https://github.com/TadasBaltrusaitis/OpenFace/releases) to extract the cropped-aligned images. However, the per-frame success rate
     is lower compared to the database-provided version.
 
