@@ -23,7 +23,7 @@ Create an environment using the `environment.yml` file
 
 ### Models
 The pre-trained models of audio and visual backbones are obtained [here](https://github.com/kuhnkeF/ABAW2020TNT)
-.The fusion models trained using our fusion approach can be found [here](https://drive.google.com/drive/folders/1W3c6V5bfGZTfwJLJq6ORSXXCLAsG7l2U?usp=share_link)
+.The fusion models trained using our fusion approach can be found [here](https://drive.google.com/file/d/1BJywljtR-L4eIGx03h8GTSQcaIKMjIjT/view?usp=sharing)
 
 ```
 RJCA.pt:  Fusion model trained using our approach on Affwild2 dataset
