@@ -26,9 +26,7 @@ The pre-trained models of audio and visual backbones are obtained [here](https:/
 .The fusion models trained using our fusion approach can be found [here](https://drive.google.com/drive/folders/1W3c6V5bfGZTfwJLJq6ORSXXCLAsG7l2U?usp=share_link)
 
 ```
-A-Vox2.model:  The speaker network (ECAPA-L) trained on VoxCeleb2
-V-Vox2.model:  The face network (ResNet18) trained on VoxCeleb2
-V-Glint.model: The face network (ResNet50) trained on Glint360K
+RJCA.model:  Fusion model trained using our approach on Affwild2 dataset
 ```
 
 # Table of contents <a name="Table_of_Content"></a>
