@@ -26,7 +26,7 @@ The pre-trained models of audio and visual backbones are obtained [here](https:/
 .The fusion models trained using our fusion approach can be found [here](https://drive.google.com/drive/folders/1W3c6V5bfGZTfwJLJq6ORSXXCLAsG7l2U?usp=share_link)
 
 ```
-RJCA.model:  Fusion model trained using our approach on Affwild2 dataset
+RJCA.pt:  Fusion model trained using our approach on Affwild2 dataset
 ```
 
 # Table of contents <a name="Table_of_Content"></a>
