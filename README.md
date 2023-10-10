@@ -38,10 +38,9 @@ recursivejointattention.pt:  Fusion model trained using our approach on the Affw
     + [Step Three: Preprocess the audio modality](#PA)
     + [Step Four: Preprocess the annotations](#PL)
 + [Training](#Training) 
-    + [Step One: Training the backbones for individual modalities](#TD) 
-    + [Step Two: Training the fusion model](#TE) 
+    + [Training the fusion model](#TE) 
 + [Inference](#R)
-    + [Step One: Generating the results](#GR)
+    + [Generating the results](#GR)
  
 ## Preprocessing <a name="DP"></a>
 [Return to Table of Content](#Table_of_Content)
@@ -62,3 +61,11 @@ Please download the following.
 ### Step Four: Preprocess the annotations <a name="PD"></a>
 [Return to Table of Content](#Table_of_Content)
   + The annotations provided by the dataset organizers are preprocessed to obtain the labels of aligned audio and visual files. To generate these audio files, you can use the file Preprocessing/preprocess_labels.py. 
+
+## Training <a name="DP"></a>
+[Return to Table of Content](#Table_of_Content)
+  + After obtaining the preprocessed audio and visual files along with annotations, we can train the model using the proposed fusion approach using the main.py script.
+
+## Inference <a name="DP"></a>
+[Return to Table of Content](#Table_of_Content)
+  + The results of the proposed model can be reproduced using the trained model. In order to obtain the predictions on the test set using our proposed model, we can use the test.py.
