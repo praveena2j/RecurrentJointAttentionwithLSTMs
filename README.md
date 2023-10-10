@@ -32,7 +32,7 @@ recursivejointattention.pt:  Fusion model trained using our approach on the Affw
 
 # Table of contents <a name="Table_of_Content"></a>
 
-+ [Data Preprocessing](#DP) 
++ [Preprocessing](#DP) 
     + [Step One: Download the dataset](#PD)
     + [Step Two: Preprocess the visual modality](#PV) 
     + [Step Three: Preprocess the audio modality](#PA)
@@ -43,7 +43,7 @@ recursivejointattention.pt:  Fusion model trained using our approach on the Affw
 + [Inference](#R)
     + [Step One: Generating the results](#GR)
  
-## Data Preprocessing <a name="DP"></a>
+## Preprocessing <a name="DP"></a>
 [Return to Table of Content](#Table_of_Content)
 
 ### Step One: Download the dataset <a name="PD"></a>
