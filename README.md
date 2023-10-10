@@ -23,10 +23,11 @@ Create an environment using the `environment.yml` file
 
 ### Models
 The pre-trained models of audio and visual backbones are obtained [here](https://github.com/kuhnkeF/ABAW2020TNT)
+
 .The fusion models trained using our fusion approach can be found [here](https://drive.google.com/file/d/1BJywljtR-L4eIGx03h8GTSQcaIKMjIjT/view?usp=sharing)
 
 ```
-RJCA.pt:  Fusion model trained using our approach on Affwild2 dataset
+recursivejointattention.pt:  Fusion model trained using our approach on the Affwild2 dataset
 ```
 
 # Table of contents <a name="Table_of_Content"></a>
@@ -51,6 +52,6 @@ RJCA.pt:  Fusion model trained using our approach on Affwild2 dataset
 Please download the following.
 + [AffWild2 database (Valence-arousal Track)](https://ibug.doc.ic.ac.uk/resources/aff-wild2/), 
     + The cropped-aligned images are necessary. They are used to form the visual input. Otherwise, you may
-    choose to use [OpenFace toolkit](https://github.com/TadasBaltrusaitis/OpenFace/releases) to extract the cropped-aligned images. But the per-frame success rate
+    choose to use [OpenFace toolkit](https://github.com/TadasBaltrusaitis/OpenFace/releases) to extract the cropped-aligned images. However the per-frame success rate
     is lower compared to the database-provided version.
 
