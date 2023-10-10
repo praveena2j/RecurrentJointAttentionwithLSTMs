@@ -24,7 +24,7 @@ Create an environment using the `environment.yml` file
 ### Models
 The pre-trained models of audio and visual backbones are obtained [here](https://github.com/kuhnkeF/ABAW2020TNT)
 
-.The fusion models trained using our fusion approach can be found [here](https://drive.google.com/file/d/1BJywljtR-L4eIGx03h8GTSQcaIKMjIjT/view?usp=sharing)
+The fusion models trained using our fusion approach can be found [here](https://drive.google.com/file/d/1BJywljtR-L4eIGx03h8GTSQcaIKMjIjT/view?usp=sharing)
 
 ```
 recursivejointattention.pt:  Fusion model trained using our approach on the Affwild2 dataset
@@ -36,7 +36,7 @@ recursivejointattention.pt:  Fusion model trained using our approach on the Affw
     + [Step One: Download the dataset](#PD)
     + [Step Two: Preprocess the visual modality](#PV) 
     + [Step Three: Preprocess the audio modality](#PA)
-    + [Step Three: Preprocess the annotations](#PL)
+    + [Step Four: Preprocess the annotations](#PL)
 + [Training](#Training) 
     + [Step One: Training the backbones for individual modalities](#TD) 
     + [Step Two: Training the fusion model](#TE) 
@@ -48,13 +48,17 @@ recursivejointattention.pt:  Fusion model trained using our approach on the Affw
 
 ### Step One: Download the dataset <a name="PD"></a>
 [Return to Table of Content](#Table_of_Content)
-
 Please download the following.
   + The dataset for the valence-arousal track can be downloaded [here](https://ibug.doc.ic.ac.uk/resources/aff-wild2/)
 
 ### Step Two: Preprocess the visual modality <a name="PD"></a>
+[Return to Table of Content](#Table_of_Content)
   + The cropped-aligned images are necessary. They are used to form the visual input. They are already provided by the dataset organizers. Otherwise, you may choose to use [OpenFace toolkit](https://github.com/TadasBaltrusaitis/OpenFace/releases) to extract the cropped-aligned images. However, the per-frame success rate is lower compared to the database-provided version.
 
 ### Step Three: Preprocess the audio modality <a name="PD"></a>
+[Return to Table of Content](#Table_of_Content)
   + The audio files are extracted and segmented to generate the corresponding audio files in alignment with the visual files using [mkvextract](https://mkvtoolnix.download/). To generate these audio files, you can use the file Preprocessing/audio_preprocess.py. 
 
+### Step Four: Preprocess the annotations <a name="PD"></a>
+[Return to Table of Content](#Table_of_Content)
+  + The annotations provided by the dataset organizers are preprocessed to obtain the labels of aligned audio and visual files. To generate these audio files, you can use the file Preprocessing/preprocess_labels.py. 
